@@ -10,7 +10,7 @@ for(let i=0;i<tweet.length; i++){
    let myTweet = tweet[i];
 
 tweetHTML += "<div id =content>"
-tweetHTML += "<div id='timage'><img src=" + myTweet.userImageUrl +" width=100 height=40> </div>"
+tweetHTML += "<div id='timage'><img src=" + myTweet.userImageUrl +" width=60px height=40px> </div>"
 tweetHTML += "<div id='tuser'>"+ myTweet.username + "<br/>" + myTweet.userHandle + "</div>"
 tweetHTML += "<div id='tfooter'>" + myTweet.message + "</div>"
 tweetHTML+="</div>"
